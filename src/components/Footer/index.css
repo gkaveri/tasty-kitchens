@@ -1,0 +1,48 @@
+.icon-font {
+  height: 40px !important;
+  width: 40px !important;
+  margin-right: 15px;
+  border-radius: 60%;
+  color:grey;
+}
+.footer-container {
+  height: 40vh;
+  background: var(--Light-blue-gray-900, #0f172a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant-name {
+  display: flex;
+}
+.website-logo {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  margin-right: 5px;
+}
+.website-heading {
+  color: #fff;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+}
+.website-descripiton {
+  color: #fff;
+  text-align: center;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  line-height: 32px; /* 133.333% */
+}
+.icons-container {
+  height: 70px;
+}

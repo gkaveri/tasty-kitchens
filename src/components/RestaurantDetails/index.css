@@ -1,0 +1,117 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant-bg-container {
+  background-image: url('data:image/jpeg;base64,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');
+  background-size: cover;
+  width: 95vw;
+  margin-top: 25px;
+  margin-right: 10px;
+  margin-left: 20px;
+  background-position: center center;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.restaurant-image1 {
+  height: 200px;
+  width: 280px;
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.restaurant-name1 {
+  color: #fff;
+  font-family: 'itallic';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: 0.2px;
+  padding-top: 15px;
+}
+.cuisine {
+  color: var(--Light-base-white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.location {
+  color: var(--Light-base-white, #fff);
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.cost-rating-section {
+  display: flex;
+  flex-direction: row;
+}
+.rating-sec {
+  display: flex;
+  flex-direction: row;
+}
+.icon-rating-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+.star {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  color: white;
+  margin-right: 5px;
+}
+.rating {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+}
+.rating-count {
+  color: var(--Light-blue-gray-200, #e2e8f0);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  margin-right: 20px;
+  margin-top: 2px;
+}
+.cost-for-two {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+}
+.cost-for-two-text {
+  color: var(--Light-blue-gray-200, #e2e8f0);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+.restaurant-item-container {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}

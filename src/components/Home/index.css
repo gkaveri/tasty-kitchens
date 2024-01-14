@@ -1,0 +1,199 @@
+.popular-restaurants-container {
+  display: flex;
+  justify-content: space-between;
+}
+.popular-restaurants-heading {
+  color: #183b56;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  margin-left: 70px;
+}
+.popular-restaurants-text {
+  color: var(--Light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-left: 70px;
+}
+.sort-by-container {
+  display: flex;
+  margin-right: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.filter-icon {
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
+  margin: 10px;
+}
+.sort-by-text {
+  color: var(--Light-blue-gray-600, #475569);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-align: center;
+  margin: 10px;
+}
+.restaurant-details-container {
+  list-style-type: none;
+  width: 1240px;
+  height: 740px;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  display: grid;
+  margin-left: 20px;
+  padding-top: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.options-container {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin: 10px;
+}
+.line {
+  width: 1180px;
+  height: 1px;
+}
+.restaurant-details-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.restaurant-image {
+  width: 180px;
+  height: 130px;
+  flex-shrink: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.restaurant-name {
+  color: var(--Light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 10px; /* Adjust the font size as needed */
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.food-type {
+  color: var(--Light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 14px; /* Adjust the font size as needed */
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.resta {
+  background-color: #eff1f4;
+  margin: 70px;
+  border-radius: 10px;
+  margin-top: -10px;
+}
+.link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+}
+.rating-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 100px;
+}
+.star-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  fill: #fc0;
+  margin-right: 5px;
+}
+.rating1 {
+  color: var(--Light-blue-gray-900, #0f172a);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 5px;
+}
+.reviews {
+  color: var(--Light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+.of-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--Light-blue-gray-700, #334155);
+  text-align: center;
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.active-page {
+  color: var(--Light-blue-gray-700, #334155);
+  text-align: center;
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 5px;
+}
+.page-count {
+  color: var(--Light-blue-gray-700, #334155);
+  text-align: center;
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 5px;
+}
+.pagination-button {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: 1px solid var(--Light-blue-gray-700, #334155);
+}
+.icon {
+  background-color: none;
+  border-style: none;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  outline: none;
+  box-shadow: none;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

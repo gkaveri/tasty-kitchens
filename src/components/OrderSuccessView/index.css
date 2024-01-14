@@ -1,0 +1,48 @@
+.successful-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* Set height to 100% of the viewport height */
+  text-align: center;
+}
+.success-icon {
+  height: 50px;
+  width: 50px;
+}
+.payment {
+  color: var(--Light-blue-gray-800, #1e293b);
+  text-align: center;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+  margin-top: -10px;
+}
+.para {
+  color: var(--Light-blue-gray-800, #1e293b);
+  text-align: center;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+  margin-top: -10px;
+  
+}
+.back-btn {
+  background-color: rgb(249, 111, 12);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  padding: 10px;
+}

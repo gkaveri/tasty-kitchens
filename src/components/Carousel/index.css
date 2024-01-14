@@ -1,0 +1,21 @@
+.slick-slice {
+  height: 40vh;
+  width: 100vw;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.offer-image {
+  width: 90%;
+  background-size: cover;
+}
+
+/* Center the carousel horizontally using margin */
+.slick-slider {
+  margin: 0 auto;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
